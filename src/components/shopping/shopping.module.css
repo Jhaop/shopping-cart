@@ -1,0 +1,20 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.cartCounter {
+  background-color: #fff;
+}
+
+
+.cartSwitch {
+  grid-row: 1;
+  padding: 15px;
+  background-color: yellow;
+  border: 3px solid red;
+}
+
+.cartSwitch:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,26 @@
+.navList>ul {
+  display: flex;
+  padding: 20px;
+  list-style: none;
+  background-color: darkblue;
+  align-items: center;
+}
+
+.listItem {
+  margin: 20px;
+  padding: 2px;
+  font-size: 2rem;
+  text-decoration: none;
+  background-color: darkblue;
+  color: beige;
+}
+
+.listItem:hover {
+  background-color: beige;
+  color: darkblue;
+}
+
+.cartImg {
+  height: auto;
+  width: 30px;
+}

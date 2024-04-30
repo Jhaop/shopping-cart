@@ -1,0 +1,17 @@
+.container {
+  width: fit-content;
+  background-color: rgb(225, 225, 168);
+  border-radius: 2%;
+}
+
+.productsTable,
+th,
+td {
+  border: 1px solid black;
+}
+
+.productsTable button {
+  background-color: transparent;
+  text-align: center;
+  width: 100%;
+}
